@@ -5181,6 +5181,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DriverControlsLib:LP11EE1NCSYG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LP11EE1NCSYG"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LP11EE1NCSYG"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP11EE1NCSYG.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PUSHBUTTON, 100mA, 12VDC SPST, Off-On Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "23.25"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-LP11EE1NCSYG"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP11EE1NCSYG?qs=l7cgNqFNU1gqyfjOc1Vnkg%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LP11EE1NCSYG"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LP11EE1NCSYG_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "K_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "K_YELLOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DriverControlsLib:LP6OA2ASRG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12997,16 +13203,16 @@
 		(uuid "05c382ee-a68d-47b8-bf27-978b70058f49")
 	)
 	(no_connect
-		(at 175.26 88.9)
-		(uuid "0d1a0714-aad5-489b-b907-6dbfd05b5573")
-	)
-	(no_connect
 		(at 347.98 151.13)
 		(uuid "12b3c197-c3da-45c4-87d1-5576aff07452")
 	)
 	(no_connect
 		(at 302.26 163.83)
 		(uuid "14b9011f-08e0-4d20-91ba-a353065fbfc6")
+	)
+	(no_connect
+		(at 201.93 29.21)
+		(uuid "14de5d85-c31e-428e-b336-a77dddb8842c")
 	)
 	(no_connect
 		(at 224.79 44.45)
@@ -13017,8 +13223,8 @@
 		(uuid "1a041837-a772-4434-ac94-833d894cf109")
 	)
 	(no_connect
-		(at 175.26 39.37)
-		(uuid "1bda7e1d-7395-4e48-bd83-ade39be62bbf")
+		(at 201.93 81.28)
+		(uuid "1cb99aa1-abd8-4442-801a-baecb7a53b73")
 	)
 	(no_connect
 		(at 302.26 140.97)
@@ -13029,12 +13235,12 @@
 		(uuid "21dd5c35-55e9-44de-bd0f-4fb84e9495ca")
 	)
 	(no_connect
-		(at 175.26 96.52)
-		(uuid "268aae94-15c8-498a-a52e-df4c00691aed")
+		(at 201.93 31.75)
+		(uuid "2c48812f-2e2d-432c-9cf9-f3b576255ce8")
 	)
 	(no_connect
-		(at 200.66 83.82)
-		(uuid "39961e09-5aa4-429a-978f-97b272d9491b")
+		(at 201.93 34.29)
+		(uuid "3b5f9906-e3f1-4871-bc13-e74e10fd4d10")
 	)
 	(no_connect
 		(at 302.26 208.28)
@@ -13045,12 +13251,12 @@
 		(uuid "4a9eb8b0-de0d-4e9e-a587-80cf2492a334")
 	)
 	(no_connect
-		(at 302.26 200.66)
-		(uuid "4c272c00-a354-4d38-9793-9f7f51fc4c99")
+		(at 201.93 54.61)
+		(uuid "4ac998c4-d79f-4f2e-81ee-fd9a7bcca3f7")
 	)
 	(no_connect
-		(at 175.26 44.45)
-		(uuid "4d050126-6691-4a2f-8fa4-d38a50695abd")
+		(at 302.26 200.66)
+		(uuid "4c272c00-a354-4d38-9793-9f7f51fc4c99")
 	)
 	(no_connect
 		(at 347.98 208.28)
@@ -13077,12 +13283,12 @@
 		(uuid "6c0ba551-8220-412b-85e6-1e34c7a15b06")
 	)
 	(no_connect
-		(at 175.26 69.85)
-		(uuid "7154399e-fec3-4f60-a8b1-ae114bd7a1cf")
-	)
-	(no_connect
 		(at 302.26 173.99)
 		(uuid "7f21b4aa-0c77-4279-a1ab-e8b966da45c0")
+	)
+	(no_connect
+		(at 201.93 59.69)
+		(uuid "83a7f21d-d14b-49c8-80f3-238bb8893bbc")
 	)
 	(no_connect
 		(at 302.26 213.36)
@@ -13101,10 +13307,6 @@
 		(uuid "91a57e8f-42a4-485a-8816-158b780f2229")
 	)
 	(no_connect
-		(at 175.26 41.91)
-		(uuid "977e5c3c-1c13-425f-86ed-5be050328203")
-	)
-	(no_connect
 		(at 224.79 36.83)
 		(uuid "97fe8806-d2f8-44b2-9808-57dc8a22d563")
 	)
@@ -13113,40 +13315,28 @@
 		(uuid "9c8d034d-03c2-4b49-9850-1dc7d8cec3ba")
 	)
 	(no_connect
-		(at 175.26 62.23)
-		(uuid "9e8044d0-adfa-4d85-b69d-b6aac2b5439c")
-	)
-	(no_connect
-		(at 175.26 36.83)
-		(uuid "9f6f9e3d-ae35-4718-b573-4910fb6d3ce9")
-	)
-	(no_connect
 		(at 302.26 181.61)
 		(uuid "a405642a-32a5-4ab3-b239-6f6aff201d47")
 	)
 	(no_connect
-		(at 200.66 57.15)
-		(uuid "a5ef501d-f315-4e67-8fa0-d854fea41b6a")
+		(at 201.93 86.36)
+		(uuid "a691a71e-b88c-45bd-966f-64c99db7b1bf")
+	)
+	(no_connect
+		(at 201.93 57.15)
+		(uuid "a736743e-025b-4f8d-92d0-60a7fc8d5090")
 	)
 	(no_connect
 		(at 347.98 138.43)
 		(uuid "a89582ac-8abb-4db7-af12-b43c9356f17e")
 	)
 	(no_connect
-		(at 175.26 91.44)
-		(uuid "ae16ec68-5f38-45bb-b065-5e22fa3596a9")
-	)
-	(no_connect
-		(at 175.26 93.98)
-		(uuid "b868a76e-6766-4ffc-9745-edbd59767f9f")
+		(at 201.93 83.82)
+		(uuid "ae65785d-161c-4240-b25b-78c07b704e13")
 	)
 	(no_connect
 		(at 302.26 161.29)
 		(uuid "bbef13e7-b3f0-48fc-8c26-536588a5908f")
-	)
-	(no_connect
-		(at 175.26 67.31)
-		(uuid "bda2b6e5-5358-4e74-ad5e-f6d48ea73340")
 	)
 	(no_connect
 		(at 302.26 220.98)
@@ -13185,20 +13375,12 @@
 		(uuid "ea88011f-1c0b-4fbb-acfa-68f98b542149")
 	)
 	(no_connect
-		(at 200.66 31.75)
-		(uuid "eb2ef9fc-41bd-44ce-b209-abad1063cbdd")
-	)
-	(no_connect
 		(at 302.26 135.89)
 		(uuid "f002e26a-bab8-4572-8418-291cfcff0a88")
 	)
 	(no_connect
 		(at 347.98 148.59)
 		(uuid "f323f626-942b-4ccf-96ad-bc9012974ec1")
-	)
-	(no_connect
-		(at 175.26 64.77)
-		(uuid "fc55dd60-54e8-48d5-8bce-a5d6081da684")
 	)
 	(wire
 		(pts
@@ -13312,13 +13494,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 170.18 86.36)
+			(xy 156.21 83.82) (xy 171.45 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d5593ad-5e51-43dc-9d83-6a0e050b6df7")
+		(uuid "0e1f91b6-9f62-46bf-9911-a6fa1ff534bf")
 	)
 	(wire
 		(pts
@@ -13602,16 +13784,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 175.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8df28f-f5d0-410a-a49e-bb88ebfdea3e")
-	)
-	(wire
-		(pts
 			(xy 218.44 149.86) (xy 224.79 149.86)
 		)
 		(stroke
@@ -13709,16 +13881,6 @@
 			(type default)
 		)
 		(uuid "3c813b0b-e253-49f7-b710-02894c2291ce")
-	)
-	(wire
-		(pts
-			(xy 175.26 34.29) (xy 170.18 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c977295-1499-4614-a281-f33e2f9c8626")
 	)
 	(wire
 		(pts
@@ -14112,6 +14274,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833397c6-ae73-416b-9099-c64a7c222dac")
+	)
+	(wire
+		(pts
 			(xy 154.94 186.69) (xy 166.37 186.69)
 		)
 		(stroke
@@ -14139,6 +14311,16 @@
 			(type default)
 		)
 		(uuid "85ffe721-c532-435f-a6a8-c085c36344c4")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 171.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2d7fb5-2780-49cb-afbd-86b9f9d98aa5")
 	)
 	(wire
 		(pts
@@ -14262,16 +14444,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 175.26 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbb1432-7c79-47c9-ad82-c2f33481ec36")
-	)
-	(wire
-		(pts
 			(xy 374.65 219.71) (xy 374.65 220.98)
 		)
 		(stroke
@@ -14339,6 +14511,16 @@
 			(type default)
 		)
 		(uuid "9fffdb66-210b-47cc-bfc0-b55b9dea3ea9")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0037485-ab59-4ec2-bcfd-cb148bd962fd")
 	)
 	(wire
 		(pts
@@ -14452,13 +14634,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 175.26 31.75)
+			(xy 156.21 57.15) (xy 171.45 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abf64b7c-fb8e-4409-9822-43bd5650d217")
+		(uuid "ab312d8b-55d8-4e0e-898b-4763fcb96020")
 	)
 	(wire
 		(pts
@@ -14489,6 +14671,16 @@
 			(type default)
 		)
 		(uuid "b07e3264-7bef-48e1-8395-1b90f26d74ba")
+	)
+	(wire
+		(pts
+			(xy 156.21 31.75) (xy 171.45 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c127f2-9add-4b26-9bf4-eb244c9f2c14")
 	)
 	(wire
 		(pts
@@ -14629,16 +14821,6 @@
 			(type default)
 		)
 		(uuid "c71e01b1-a976-463a-883e-8f135449c489")
-	)
-	(wire
-		(pts
-			(xy 175.26 59.69) (xy 170.18 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca998a81-8eef-495a-a02f-79d6a62ae66f")
 	)
 	(wire
 		(pts
@@ -16403,73 +16585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0283bec0-74e2-4984-8cb1-a47fae201d1c")
-		(property "Reference" "#PWR039"
-			(at 207.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a998af15-a657-453f-aaac-96ca0b6f0888")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC_Parts:GND")
 		(at 328.93 54.61 270)
 		(unit 1)
@@ -16739,7 +16854,7 @@
 			(uuid "ad766bae-53d1-4cad-9b64-4906e9fb88ab")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R19")
 					(unit 1)
@@ -16846,7 +16961,7 @@
 			(uuid "2d9d9ad1-447c-4eca-9d9b-a71f8599a4a6")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "C7")
 					(unit 1)
@@ -17028,73 +17143,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a4fb331-de28-45ee-87c1-a341f6e1d495")
-		(property "Reference" "#PWR036"
-			(at 207.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7249d5c0-3160-4bea-99f9-fd8598277966")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 157.48 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17152,76 +17200,9 @@
 			(uuid "a477b7c2-856d-4caa-9bae-a3c9e6d312ad")
 		)
 		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c113fd4-ca51-469d-b6de-da7463c5cb83")
-		(property "Reference" "#PWR035"
-			(at 207.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f7d6c07-fcc8-448f-b6a0-21a1184459b0")
-		)
-		(instances
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR035")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17788,7 +17769,7 @@
 			(uuid "1e6d1cb2-8b74-4a1f-b231-00967277a46c")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "D9")
 					(unit 1)
@@ -18077,7 +18058,7 @@
 			(uuid "165aaf87-9fca-4eb1-8fb6-d66a4b60b4ca")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR051")
 					(unit 1)
@@ -18261,73 +18242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bf64364-055f-4999-ba82-30afdf127e51")
-		(property "Reference" "#PWR038"
-			(at 207.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94e4b616-d1a6-4d68-9595-742b7e87ff3b")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DriverControlsLib:LV_Switch")
 		(at 270.51 20.32 0)
 		(unit 1)
@@ -18423,7 +18337,7 @@
 			(uuid "dbfa81fc-5190-4854-8ee6-0c4cc142a359")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U3")
 					(unit 1)
@@ -18634,7 +18548,7 @@
 			(uuid "5d65ace1-f965-4030-aa2c-299865f787cb")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U4")
 					(unit 1)
@@ -18795,7 +18709,7 @@
 			(uuid "bac9ad88-5269-4531-9d19-4bcc48610c0c")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "J1")
 					(unit 1)
@@ -18862,7 +18776,7 @@
 			(uuid "85e89411-7e8d-4f16-b673-2bb5c00d1c9c")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR05")
 					(unit 1)
@@ -19530,73 +19444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a587a11-03d7-4227-869f-9495c5a9cab7")
-		(property "Reference" "#PWR040"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "316977d1-d3c3-470c-82e5-d08b4fdc5fde")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC_Parts:GND")
 		(at 328.93 95.25 270)
 		(unit 1)
@@ -20080,7 +19927,7 @@
 			(uuid "d49e2603-b8f8-4c97-8f3f-42ee8572595f")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "J4")
 					(unit 1)
@@ -20464,7 +20311,7 @@
 			(uuid "00d74ca5-0881-4af8-9654-78c0953de392")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R10")
 					(unit 1)
@@ -20915,76 +20762,9 @@
 			(uuid "7c24b703-fc34-42e0-a3e3-e5aa5f3f29a4")
 		)
 		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a7ebba3-891c-487f-9f3c-5293ebb88328")
-		(property "Reference" "#PWR044"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d202fdb2-714e-4a91-8f49-b62085f953bc")
-		)
-		(instances
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR044")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -21097,7 +20877,7 @@
 			(uuid "784064d9-edb2-4856-8b63-05542e79c98e")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "D8")
 					(unit 1)
@@ -21482,43 +21262,33 @@
 		)
 	)
 	(symbol
-		(lib_id "DriverControlsLib:LP6OA2ASRG")
-		(at 175.26 31.75 0)
+		(lib_id "DriverControlsLib:LP11EE1NCSYG")
+		(at 171.45 34.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4063b41d-f264-4ea8-b135-9b297158846f")
 		(property "Reference" "S1"
-			(at 187.96 24.13 0)
+			(at 186.944 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LP6OA2ASRG"
-			(at 187.96 26.67 0)
+		(property "Value" "LP11EE1NCSYG"
+			(at 186.944 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DriverControlsLib:LP6OA2ASRG"
-			(at 196.85 126.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 196.85 226.67 0)
+		(property "Footprint" "DriverControlsLib:LP11EE1NCSYG"
+			(at 198.12 -60.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21527,17 +21297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 196.85 426.67 0)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP11EE1NCSYG.pdf"
+			(at 198.12 -160.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21546,8 +21307,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 196.85 526.67 0)
+		(property "Description" "PUSHBUTTON, 100mA, 12VDC SPST, Off-On Through Hole"
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.25"
+			(at 198.12 -360.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21556,8 +21326,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 196.85 626.67 0)
+		(property "Mouser Part Number" "612-LP11EE1NCSYG"
+			(at 198.12 -460.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP11EE1NCSYG?qs=l7cgNqFNU1gqyfjOc1Vnkg%3D%3D"
+			(at 198.12 -560.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21567,7 +21347,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "E-Switch"
-			(at 196.85 726.67 0)
+			(at 198.12 -660.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21576,8 +21356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 196.85 826.67 0)
+		(property "Manufacturer_Part_Number" "LP11EE1NCSYG"
+			(at 198.12 -760.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21587,7 +21367,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 175.26 31.75 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21596,7 +21376,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 175.26 31.75 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21605,7 +21385,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 175.26 31.75 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21614,7 +21394,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 175.26 31.75 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21625,38 +21405,20 @@
 		(pin "L2"
 			(uuid "e8671b3e-7b4a-407b-8db0-ecf484776098")
 		)
-		(pin "MH2"
-			(uuid "66454419-6b92-4fdf-9e1c-77cbcbe002e7")
-		)
-		(pin "4"
-			(uuid "110d863c-093f-4997-b449-ee6e849b3fdd")
-		)
 		(pin "2"
 			(uuid "6edfa77f-b004-493d-b5f8-82b54483990c")
 		)
 		(pin "1"
 			(uuid "6a95cb24-28e4-4c67-9a24-e7fdf70ed292")
 		)
-		(pin "3"
-			(uuid "a9a5c891-2b4d-4a64-8bc1-8751cabf40a4")
-		)
 		(pin "L1"
 			(uuid "f9682528-b063-4c31-bc66-9a7e72046aeb")
-		)
-		(pin "MH1"
-			(uuid "8697f83e-9d36-4ad4-9675-ea40c727a7e5")
-		)
-		(pin "MH3"
-			(uuid "b9a08ce1-72f8-4e46-b7d1-30844c506bba")
-		)
-		(pin "MH4"
-			(uuid "faf0eba6-abaf-4ff1-b5fb-55aadd92c51d")
 		)
 		(pin "LC1"
 			(uuid "25856e6e-6e57-4feb-990f-c182b8ba1914")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "S1")
 					(unit 1)
@@ -22000,7 +21762,7 @@
 			(uuid "5f8a292d-1586-4d34-99ab-cac5e0e6d789")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR011")
 					(unit 1)
@@ -22180,43 +21942,33 @@
 		)
 	)
 	(symbol
-		(lib_id "DriverControlsLib:LP6OA2ASRG")
-		(at 175.26 57.15 0)
+		(lib_id "DriverControlsLib:LP11EE1NCSYG")
+		(at 171.45 59.69 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b814549-4eb4-4788-80a6-6fba69ab74a8")
 		(property "Reference" "S2"
-			(at 187.96 49.53 0)
+			(at 186.69 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LP6OA2ASRG"
-			(at 187.96 52.07 0)
+		(property "Value" "LP11EE1NCSYG"
+			(at 186.436 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DriverControlsLib:LP6OA2ASRG"
-			(at 196.85 152.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 196.85 252.07 0)
+		(property "Footprint" "DriverControlsLib:LP11EE1NCSYG"
+			(at 198.12 -35.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22225,17 +21977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 175.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 196.85 452.07 0)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP11EE1NCSYG.pdf"
+			(at 198.12 -135.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22244,8 +21987,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 196.85 552.07 0)
+		(property "Description" "PUSHBUTTON, 100mA, 12VDC SPST, Off-On Through Hole"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.25"
+			(at 198.12 -335.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22254,8 +22006,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 196.85 652.07 0)
+		(property "Mouser Part Number" "612-LP11EE1NCSYG"
+			(at 198.12 -435.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP11EE1NCSYG?qs=l7cgNqFNU1gqyfjOc1Vnkg%3D%3D"
+			(at 198.12 -535.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22265,7 +22027,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "E-Switch"
-			(at 196.85 752.07 0)
+			(at 198.12 -635.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22274,8 +22036,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 196.85 852.07 0)
+		(property "Manufacturer_Part_Number" "LP11EE1NCSYG"
+			(at 198.12 -735.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22285,7 +22047,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 175.26 57.15 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22294,7 +22056,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 175.26 57.15 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22303,7 +22065,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 175.26 57.15 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22312,7 +22074,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 175.26 57.15 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22323,32 +22085,14 @@
 		(pin "L2"
 			(uuid "77aac339-372b-4f7d-9727-c8db3f82d8fb")
 		)
-		(pin "MH2"
-			(uuid "8111f035-a32a-4c9c-9617-cf5cde92a91b")
-		)
-		(pin "4"
-			(uuid "27233990-9b4e-4773-91d0-faf856933655")
-		)
 		(pin "2"
 			(uuid "eceee0db-7e7b-4a78-aec8-60f56f5ef064")
 		)
 		(pin "1"
 			(uuid "f0c4316e-da12-4bc6-b224-d78cea9a7df9")
 		)
-		(pin "3"
-			(uuid "ff6b36f3-c403-429d-9ca0-320f4223f2ce")
-		)
 		(pin "L1"
 			(uuid "09d16999-9d73-4244-98a5-1b040de47a13")
-		)
-		(pin "MH1"
-			(uuid "bc7a5e38-b406-4ac9-b5ea-25999bd8dd25")
-		)
-		(pin "MH3"
-			(uuid "fec3591a-2c58-44e5-8f03-6c3ab2ddef8d")
-		)
-		(pin "MH4"
-			(uuid "03cc222a-a449-4f4b-95f0-49e4a1bd86df")
 		)
 		(pin "LC1"
 			(uuid "385993a0-9890-4588-9c7d-e1d656f9e093")
@@ -23171,7 +22915,7 @@
 			(uuid "45ef993d-2be9-4e79-ae7f-5195577ba1cb")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "F8")
 					(unit 1)
@@ -23279,7 +23023,7 @@
 			(uuid "4ed42a28-82e9-4f9e-91ab-f2ae3f59b60c")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R37")
 					(unit 1)
@@ -23665,7 +23409,7 @@
 			(uuid "ad94197f-e20d-4e1c-a028-42526836051d")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "C3")
 					(unit 1)
@@ -23972,7 +23716,7 @@
 			(uuid "49c91204-052b-401a-9af0-57fed946a2d5")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR045")
 					(unit 1)
@@ -24741,73 +24485,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63874fa0-0eee-4708-a444-87bf295ae8f1")
-		(property "Reference" "#PWR034"
-			(at 207.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "399b2d10-ed32-4b91-aa8f-dce9e9b6ecf4")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 295.91 210.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25112,7 +24789,7 @@
 			(uuid "fceaf7ab-1dcc-4ef0-9bfa-96e234e2809b")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "DS1")
 					(unit 1)
@@ -25402,73 +25079,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf7eb81-9ac6-4ce3-aa1d-9a2a1861aead")
-		(property "Reference" "#PWR042"
-			(at 207.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d3c4e5c-bd3d-4523-a894-8adba78c4260")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 170.18 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25699,7 +25309,7 @@
 			(uuid "e5c96e43-7221-4820-a7b6-2152b344d342")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "F15")
 					(unit 1)
@@ -25823,7 +25433,7 @@
 			(uuid "9b42a9a1-187c-47d6-81e4-008546c364b0")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U1")
 					(unit 1)
@@ -26530,7 +26140,7 @@
 			(uuid "4bab931d-bcef-4822-836a-1f8c8b148812")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R23")
 					(unit 1)
@@ -26703,7 +26313,7 @@
 			(uuid "0e6a9ac7-df26-404d-bb98-90bc1f7a4c09")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR030")
 					(unit 1)
@@ -26770,7 +26380,7 @@
 			(uuid "69345358-2a28-4bc1-a7c5-47b97bb1d3dd")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR028")
 					(unit 1)
@@ -26941,7 +26551,7 @@
 			(uuid "5069c78d-40cd-412f-8e96-8982b0fb8239")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "S5")
 					(unit 1)
@@ -27075,7 +26685,7 @@
 			(uuid "109e4f65-0527-492f-b8d8-f2182a728ae6")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR020")
 					(unit 1)
@@ -27260,7 +26870,7 @@
 			(uuid "487fe715-5a8c-4322-b1e2-764488709662")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U2")
 					(unit 1)
@@ -27539,7 +27149,7 @@
 			(uuid "ed16daaf-9418-40d2-b31f-003bee543c43")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR021")
 					(unit 1)
@@ -28155,43 +27765,33 @@
 		)
 	)
 	(symbol
-		(lib_id "DriverControlsLib:LP6OA2ASRG")
-		(at 175.26 83.82 0)
+		(lib_id "DriverControlsLib:LP11EE1NCSYG")
+		(at 171.45 86.36 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93d50c5d-a784-46c9-876a-bb5737774236")
 		(property "Reference" "S3"
-			(at 187.96 76.2 0)
+			(at 186.436 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LP6OA2ASRG"
-			(at 187.96 78.74 0)
+		(property "Value" "LP11EE1NCSYG"
+			(at 187.198 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DriverControlsLib:LP6OA2ASRG"
-			(at 196.85 178.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP6OA2ASRG.pdf"
-			(at 196.85 278.74 0)
+		(property "Footprint" "DriverControlsLib:LP11EE1NCSYG"
+			(at 198.12 -8.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28200,17 +27800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PUSHBUTTON, 12mA, 12VDC DPST, Off-(On) Through Hole"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "20.7"
-			(at 196.85 478.74 0)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/LP11EE1NCSYG.pdf"
+			(at 198.12 -108.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28219,8 +27810,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-LP6OA2ASRG"
-			(at 196.85 578.74 0)
+		(property "Description" "PUSHBUTTON, 100mA, 12VDC SPST, Off-On Through Hole"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.25"
+			(at 198.12 -308.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28229,8 +27829,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP6OA2ASRG?qs=QtyuwXswaQg%2FjbtHLYNftA%3D%3D"
-			(at 196.85 678.74 0)
+		(property "Mouser Part Number" "612-LP11EE1NCSYG"
+			(at 198.12 -408.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/LP11EE1NCSYG?qs=l7cgNqFNU1gqyfjOc1Vnkg%3D%3D"
+			(at 198.12 -508.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28240,7 +27850,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "E-Switch"
-			(at 196.85 778.74 0)
+			(at 198.12 -608.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28249,8 +27859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LP6OA2ASRG"
-			(at 196.85 878.74 0)
+		(property "Manufacturer_Part_Number" "LP11EE1NCSYG"
+			(at 198.12 -708.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28260,7 +27870,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 175.26 83.82 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28269,7 +27879,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 175.26 83.82 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28278,7 +27888,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 175.26 83.82 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28287,7 +27897,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 175.26 83.82 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28298,32 +27908,14 @@
 		(pin "L2"
 			(uuid "b7ae755f-44a4-4eba-a760-a1f47cd613d0")
 		)
-		(pin "MH2"
-			(uuid "05641826-6502-4e28-8e95-9a70d26d941c")
-		)
-		(pin "4"
-			(uuid "4f5b4e46-304a-4838-a8de-a010ec318ca1")
-		)
 		(pin "2"
 			(uuid "d84924e9-70a7-421f-a08c-0f08f1de0dec")
 		)
 		(pin "1"
 			(uuid "7bdc94f6-8a7e-4f48-ad56-5b4fed9e5121")
 		)
-		(pin "3"
-			(uuid "9bfb63a5-e7cd-4e4c-a726-404c667d9c21")
-		)
 		(pin "L1"
 			(uuid "2584983c-8728-4ffd-b8ba-f56e64fb77eb")
-		)
-		(pin "MH1"
-			(uuid "527b36bb-6935-461f-aa39-4965e2a28491")
-		)
-		(pin "MH3"
-			(uuid "d190edb4-9632-4ef0-af0a-88e43817f342")
-		)
-		(pin "MH4"
-			(uuid "26666ac0-24cf-48a0-b478-b10b1f547689")
 		)
 		(pin "LC1"
 			(uuid "d74ce13f-2cda-43d7-a15d-035bf783e07f")
@@ -28504,7 +28096,7 @@
 			(uuid "0c45b75b-e81c-49d5-a86e-69bb788bd2d8")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR016")
 					(unit 1)
@@ -28724,7 +28316,7 @@
 			(uuid "ff0a6376-6d5c-4c20-acff-7c208a1267cf")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "J3")
 					(unit 1)
@@ -29267,7 +28859,7 @@
 			(uuid "df3459e3-41f3-4737-aa6e-6b4a032c5604")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR029")
 					(unit 1)
@@ -29334,7 +28926,7 @@
 			(uuid "a289519b-a9af-4606-bc34-a19c75556ee8")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR053")
 					(unit 1)
@@ -29785,73 +29377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aef2c1da-0d8e-4762-94c4-70e9cba5d500")
-		(property "Reference" "#PWR033"
-			(at 207.01 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1180b1d9-5905-4562-ac4e-84fce5ba9af0")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DC_Parts:GND")
 		(at 349.25 24.13 90)
 		(unit 1)
@@ -30048,76 +29573,9 @@
 			(uuid "149e8bae-c678-4c41-9b53-41073daaaffb")
 		)
 		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bad1e3b5-229b-4580-a67f-d2bc324f9774")
-		(property "Reference" "#PWR037"
-			(at 207.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e057458e-667e-4ad7-b18b-c5c2d96ae8e6")
-		)
-		(instances
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR037")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -30420,7 +29878,7 @@
 			(uuid "2e9a9f69-5ee3-4422-818b-b0a27b96342d")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR017")
 					(unit 1)
@@ -30865,7 +30323,7 @@
 			(uuid "4d79e3ed-f5bc-44e8-b403-474a3a87b4d1")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U5")
 					(unit 1)
@@ -30932,7 +30390,7 @@
 			(uuid "cab202e5-10cf-46d1-9b41-2502022b0f2f")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR018")
 					(unit 1)
@@ -30998,7 +30456,7 @@
 			(uuid "ad6f02f1-b354-439a-86ed-fc7035e875bd")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR06")
 					(unit 1)
@@ -31241,7 +30699,7 @@
 			(uuid "72a279c4-c5c2-429a-b32a-be86587f1010")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "Q1")
 					(unit 1)
@@ -31619,7 +31077,7 @@
 			(uuid "e107ec43-e63e-45a9-87f8-b5ff2e370f34")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR080")
 					(unit 1)
@@ -31907,7 +31365,7 @@
 			(uuid "db84f6cf-4aff-44cd-9160-ce0235c44b42")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR022")
 					(unit 1)
@@ -32014,7 +31472,7 @@
 			(uuid "2194d8ac-c7b9-413c-b9f3-087d862b261e")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R5")
 					(unit 1)
@@ -32605,7 +32063,7 @@
 			(uuid "df1bc236-17ee-4d69-a978-313ad506ce1d")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "C1")
 					(unit 1)
@@ -32675,73 +32133,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc0f8d04-c619-49d7-928e-f4f1e5e0ea33")
-		(property "Reference" "#PWR043"
-			(at 207.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ade7e90c-190e-49b3-a354-4ac75ccd3c92")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -32982,7 +32373,7 @@
 			(uuid "b9828f04-357b-42d6-bef6-5f61d17af091")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "D1")
 					(unit 1)
@@ -33493,7 +32884,7 @@
 			(uuid "4d79e3ed-f5bc-44e8-b403-474a3a87b4d2")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U5")
 					(unit 2)
@@ -33900,73 +33291,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaaeb448-ec17-4bf7-b67e-6db3de15547b")
-		(property "Reference" "#PWR041"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9f831e9-fe8d-435e-b190-1566267909b7")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 156.21 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34340,7 +33664,7 @@
 			(uuid "85a6558b-9563-4c7a-ac18-5904b77337e2")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR027")
 					(unit 1)
@@ -34446,7 +33770,7 @@
 			(uuid "5b4689a5-812d-4c10-bf9d-3cd19bcba579")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "LED1")
 					(unit 1)
@@ -35244,7 +34568,7 @@
 			(uuid "3b46e5a6-98c3-450a-9873-97b1f3f01235")
 		)
 		(instances
-			(project ""
+			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "D10")
 					(unit 1)

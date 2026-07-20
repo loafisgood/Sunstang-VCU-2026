@@ -1,0 +1,685 @@
+** Drc report for DC.kicad_pcb **
+** Created on 2026-07-20T19:40:39-0400 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 220 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(261.5000 mm, 154.0000 mm): Via [GND] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(254.5000 mm, 154.0000 mm): Via [+3.3V] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(255.2870 mm, 188.2870 mm): Via [+12V] on Front - Back
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(258.0000 mm, 154.0000 mm): Via [Net-(U5A-VIN)] on Front - Back
+[lib_footprint_issues]: Footprint 'SOT95P237X111-3N' not found in library 'Diode_SMD'.
+    Local override; warning
+    @(246.2823 mm, 186.5000 mm): Footprint D10
+[lib_footprint_mismatch]: Footprint 'MODULE_NUCLEO-F302R8' does not match copy in library 'DriverControlsLib'.
+    Local override; warning
+    @(217.6800 mm, 108.1300 mm): Footprint U5
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.6707 mm, 154.8370 mm): PCB text 'SUNSTANG' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.6707 mm, 154.8370 mm): PCB text 'SUNSTANG' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(101.0000 mm, 134.5000 mm): Reference field of C4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0984 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.7760 mm, 173.3958 mm): Reference field of R12
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.7760 mm, 173.3958 mm): Reference field of R12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(73.0000 mm, 79.5000 mm): Reference field of C8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(80.6200 mm, 119.0000 mm): Reference field of F9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.3340 mm, 117.6665 mm): Footprint text of F9 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.3340 mm, 117.6665 mm): Footprint text of F9 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(216.6500 mm, 168.3000 mm): Reference field of F18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(215.3165 mm, 170.5860 mm): Footprint text of F18 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(215.3165 mm, 170.5860 mm): Footprint text of F18 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0984 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.7100 mm, 182.3675 mm): Reference field of R14
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.7100 mm, 182.3675 mm): Reference field of R14
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.1991 mm, 162.5142 mm): Reference field of F10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 161.1807 mm): Footprint text of F10 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 161.1807 mm): Footprint text of F10 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.7500 mm, 166.9600 mm): Reference field of D2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(90.9500 mm, 171.9875 mm): Reference field of U3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(88.0600 mm, 114.5000 mm): Reference field of R3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(221.2750 mm, 177.8000 mm): Reference field of R29
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0984 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.7100 mm, 168.9100 mm): Reference field of R11
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.7100 mm, 168.9100 mm): Reference field of R11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.8300 mm, 106.2000 mm): Reference field of R21
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.3160 mm, 171.8521 mm): Reference field of LED3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.3041 mm, 167.4639 mm): Reference field of F2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 168.7974 mm): Footprint text of F2 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 168.7974 mm): Footprint text of F2 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0984 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.6199 mm, 164.4241 mm): Reference field of R10
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.6199 mm, 164.4241 mm): Reference field of R10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(109.9500 mm, 171.9875 mm): Reference field of U4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(176.6500 mm, 168.3000 mm): Reference field of F15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(175.3165 mm, 170.5860 mm): Footprint text of F15 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(175.3165 mm, 170.5860 mm): Footprint text of F15 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0801 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(95.7624 mm, 115.4182 mm): Reference field of D8
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3204 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.7624 mm, 115.4182 mm): Reference field of D8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(153.3950 mm, 134.4600 mm): Reference field of R16
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.3327 mm, 95.1500 mm): Reference field of DS1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.1991 mm, 176.3285 mm): Reference field of F13
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 174.9950 mm): Footprint text of F13 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 174.9950 mm): Footprint text of F13 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.1418 mm, 180.7301 mm): Reference field of LED5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.2500 mm, 167.4131 mm): Reference field of LED2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(207.9000 mm, 177.8000 mm): Reference field of R28
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(246.0000 mm, 164.5000 mm): Reference field of C1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(80.6200 mm, 114.4661 mm): Reference field of F8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.3340 mm, 113.1326 mm): Footprint text of F8 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.3340 mm, 113.1326 mm): Footprint text of F8 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(249.1242 mm, 185.7450 mm): Reference field of D10
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(249.1242 mm, 185.7450 mm): Reference field of D10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0801 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(95.7024 mm, 110.8894 mm): Reference field of D7
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3204 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.7024 mm, 110.8894 mm): Reference field of D7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(121.7500 mm, 162.5142 mm): Reference field of R5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(181.1500 mm, 174.3000 mm): Reference field of R31
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(104.8300 mm, 106.2000 mm): Reference field of R25
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(190.0000 mm, 82.5000 mm): Reference field of C9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(114.4150 mm, 112.5000 mm): Reference field of U2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(254.3758 mm, 174.4950 mm): Reference field of R23
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0801 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(95.5089 mm, 106.1005 mm): Reference field of D6
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3204 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.5089 mm, 106.1005 mm): Reference field of D6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(246.0000 mm, 172.0000 mm): Reference field of U1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(252.0000 mm, 168.0000 mm): Footprint text of U1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(252.0000 mm, 167.0000 mm): Footprint text of U1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.1991 mm, 171.7237 mm): Reference field of F12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 170.3902 mm): Footprint text of F12 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 170.3902 mm): Footprint text of F12 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(121.7500 mm, 171.7110 mm): Reference field of R7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.9625 mm, 175.9600 mm): Reference field of D4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.5000 mm, 92.5000 mm): Reference field of R19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.1991 mm, 167.1189 mm): Reference field of F11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 165.7854 mm): Footprint text of F11 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 165.7854 mm): Footprint text of F11 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(221.0000 mm, 165.5000 mm): Reference field of Q4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(109.3750 mm, 99.0000 mm): Reference field of C7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.0000 mm, 134.4600 mm): Reference field of C2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(104.8300 mm, 118.7000 mm): Reference field of R24
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(234.6500 mm, 174.3000 mm): Reference field of R35
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.0000 mm, 165.5000 mm): Reference field of Q2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(230.1500 mm, 168.3000 mm): Reference field of F19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(228.8165 mm, 170.5860 mm): Footprint text of F19 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(228.8165 mm, 170.5860 mm): Footprint text of F19 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(243.0000 mm, 181.0000 mm): Reference field of R22
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(249.2300 mm, 181.0000 mm): Reference field of J4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.5000 mm, 103.0000 mm): Reference field of R20
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.1991 mm, 180.9332 mm): Reference field of F14
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 179.5998 mm): Footprint text of F14 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.9131 mm, 179.5998 mm): Footprint text of F14 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(207.9000 mm, 174.3000 mm): Reference field of R33
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.9625 mm, 171.4600 mm): Reference field of D3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(193.0000 mm, 149.5000 mm): Reference field of R37
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(153.3950 mm, 140.4600 mm): Reference field of C3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(207.5000 mm, 165.5000 mm): Reference field of Q3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.3041 mm, 176.4435 mm): Reference field of F4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 177.7770 mm): Footprint text of F4 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 177.7770 mm): Footprint text of F4 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.3041 mm, 180.9332 mm): Reference field of F5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 182.2668 mm): Footprint text of F5 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5901 mm, 182.2668 mm): Footprint text of F5 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(181.0000 mm, 165.5000 mm): Reference field of Q1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(87.9242 mm, 105.5111 mm): Reference field of R1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.6500 mm, 168.3000 mm): Reference field of F16
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(188.3165 mm, 170.5860 mm): Footprint text of F16 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(188.3165 mm, 170.5860 mm): Footprint text of F16 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(221.2750 mm, 174.3000 mm): Reference field of R34
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(80.4842 mm, 105.4942 mm): Reference field of F6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.1982 mm, 104.1607 mm): Footprint text of F6 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.1982 mm, 104.1607 mm): Footprint text of F6 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(114.3750 mm, 99.0000 mm): Reference field of C6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.2841 mm, 162.9742 mm): Reference field of F1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5701 mm, 164.3076 mm): Footprint text of F1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5701 mm, 164.3076 mm): Footprint text of F1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(121.7500 mm, 180.9078 mm): Reference field of R9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(200.5000 mm, 82.5000 mm): Reference field of C10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(121.7500 mm, 167.1126 mm): Reference field of R6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(101.0000 mm, 140.3970 mm): Reference field of R17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(259.9075 mm, 78.2850 mm): Reference field of U5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(121.7500 mm, 176.3094 mm): Reference field of R8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.2641 mm, 171.9537 mm): Reference field of F3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5501 mm, 173.2872 mm): Footprint text of F3 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.5501 mm, 173.2872 mm): Footprint text of F3 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.9625 mm, 180.4600 mm): Reference field of D5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(234.6500 mm, 177.8000 mm): Reference field of R30
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.0000 mm, 140.4600 mm): Reference field of R15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(181.1500 mm, 177.8000 mm): Reference field of R26
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(88.0000 mm, 110.0000 mm): Reference field of R2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(80.5600 mm, 110.0000 mm): Reference field of F7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.2740 mm, 108.6665 mm): Footprint text of F7 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(78.2740 mm, 108.6665 mm): Footprint text of F7 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.1218 mm, 162.9742 mm): Reference field of LED1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.5250 mm, 177.8000 mm): Reference field of R27
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(88.0600 mm, 119.0000 mm): Reference field of R4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.7500 mm, 162.4600 mm): Reference field of D1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(114.3750 mm, 103.0000 mm): Reference field of C5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.0984 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.7100 mm, 177.8817 mm): Reference field of R13
+[text_height]: Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.7100 mm, 177.8817 mm): Reference field of R13
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.8750 mm, 99.5000 mm): Reference field of R18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.5250 mm, 174.3000 mm): Reference field of R32
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(203.1500 mm, 168.3000 mm): Reference field of F17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(201.8165 mm, 170.5860 mm): Footprint text of F17 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(201.8165 mm, 170.5860 mm): Footprint text of F17 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(234.5000 mm, 165.5000 mm): Reference field of Q5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.1959 mm, 176.2911 mm): Reference field of LED4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(193.0000 mm, 153.0000 mm): Reference field of R36
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(258.0000 mm, 185.0000 mm): Reference field of U6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(114.9722 mm, 92.5000 mm): Reference field of C8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(162.5000 mm, 189.0000 mm): Reference field of J2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(246.3240 mm, 192.0000 mm): Reference field of J3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(82.5000 mm, 189.0000 mm): Reference field of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.5000 mm, 136.8100 mm): Reference field of S3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.5000 mm, 136.8100 mm): Reference field of S2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.7500 mm, 166.9600 mm): Reference field of D2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.0600 mm, 114.5000 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(221.2750 mm, 177.8000 mm): Reference field of R29
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.8300 mm, 106.2000 mm): Reference field of R21
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3160 mm, 171.8521 mm): Reference field of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.3950 mm, 134.4600 mm): Reference field of R16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.3327 mm, 95.1500 mm): Reference field of DS1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.1418 mm, 180.7301 mm): Reference field of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.2500 mm, 167.4131 mm): Reference field of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(207.9000 mm, 177.8000 mm): Reference field of R28
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(246.0000 mm, 164.5000 mm): Reference field of C1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.7500 mm, 162.5142 mm): Reference field of R5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.1500 mm, 174.3000 mm): Reference field of R31
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.8300 mm, 106.2000 mm): Reference field of R25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.0000 mm, 112.5000 mm): Reference field of S5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(190.0000 mm, 82.5000 mm): Reference field of C9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(254.3758 mm, 174.4950 mm): Reference field of R23
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.7500 mm, 171.7110 mm): Reference field of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.9625 mm, 175.9600 mm): Reference field of D4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(165.5000 mm, 92.5000 mm): Reference field of R19
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.8300 mm, 118.7000 mm): Reference field of R24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(234.6500 mm, 174.3000 mm): Reference field of R35
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(243.0000 mm, 181.0000 mm): Reference field of R22
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(249.2300 mm, 181.0000 mm): Reference field of J4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(165.5000 mm, 103.0000 mm): Reference field of R20
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(207.9000 mm, 174.3000 mm): Reference field of R33
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.9625 mm, 171.4600 mm): Reference field of D3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(193.0000 mm, 149.5000 mm): Reference field of R37
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.9242 mm, 105.5111 mm): Reference field of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(221.2750 mm, 174.3000 mm): Reference field of R34
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.3750 mm, 99.0000 mm): Reference field of C6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.7500 mm, 180.9078 mm): Reference field of R9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(200.5000 mm, 82.5000 mm): Reference field of C10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.7500 mm, 167.1126 mm): Reference field of R6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.0000 mm, 140.3970 mm): Reference field of R17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.7500 mm, 176.3094 mm): Reference field of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.1500 mm, 136.8500 mm): Reference field of S1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.9625 mm, 180.4600 mm): Reference field of D5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(234.6500 mm, 177.8000 mm): Reference field of R30
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.0000 mm, 140.4600 mm): Reference field of R15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.1500 mm, 177.8000 mm): Reference field of R26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.0000 mm, 110.0000 mm): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.1218 mm, 162.9742 mm): Reference field of LED1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(194.5250 mm, 177.8000 mm): Reference field of R27
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.7500 mm, 162.4600 mm): Reference field of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.8750 mm, 99.5000 mm): Reference field of R18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(194.5250 mm, 174.3000 mm): Reference field of R32
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.1959 mm, 176.2911 mm): Reference field of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(193.0000 mm, 153.0000 mm): Reference field of R36
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(258.0000 mm, 185.0000 mm): Reference field of U6
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9131 mm, 174.9950 mm): Footprint text of F13 (*)
+    @(112.9131 mm, 174.9950 mm): Footprint text of F13 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9131 mm, 179.5998 mm): Footprint text of F14 (*)
+    @(112.9131 mm, 179.5998 mm): Footprint text of F14 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9131 mm, 170.3902 mm): Footprint text of F12 (*)
+    @(112.9131 mm, 170.3902 mm): Footprint text of F12 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9131 mm, 165.7854 mm): Footprint text of F11 (*)
+    @(112.9131 mm, 165.7854 mm): Footprint text of F11 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.9131 mm, 161.1807 mm): Footprint text of F10 (*)
+    @(112.9131 mm, 161.1807 mm): Footprint text of F10 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(78.2740 mm, 108.6665 mm): Footprint text of F7 (*)
+    @(78.2740 mm, 108.6665 mm): Footprint text of F7 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(78.1982 mm, 104.1607 mm): Footprint text of F6 (*)
+    @(78.1982 mm, 104.1607 mm): Footprint text of F6 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(78.3340 mm, 117.6665 mm): Footprint text of F9 (*)
+    @(78.3340 mm, 117.6665 mm): Footprint text of F9 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(78.3340 mm, 113.1326 mm): Footprint text of F8 (*)
+    @(78.3340 mm, 113.1326 mm): Footprint text of F8 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(215.3165 mm, 170.5860 mm): Footprint text of F18 (*)
+    @(215.3165 mm, 170.5860 mm): Footprint text of F18 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(228.8165 mm, 170.5860 mm): Footprint text of F19 (*)
+    @(228.8165 mm, 170.5860 mm): Footprint text of F19 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(201.8165 mm, 170.5860 mm): Footprint text of F17 (*)
+    @(201.8165 mm, 170.5860 mm): Footprint text of F17 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(175.3165 mm, 170.5860 mm): Footprint text of F15 (*)
+    @(175.3165 mm, 170.5860 mm): Footprint text of F15 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(188.3165 mm, 170.5860 mm): Footprint text of F16 (*)
+    @(188.3165 mm, 170.5860 mm): Footprint text of F16 (*)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
